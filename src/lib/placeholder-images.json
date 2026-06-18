@@ -1,0 +1,76 @@
+{
+  "placeholderImages": [
+    {
+      "id": "rice-1",
+      "description": "Bag of Basmati rice",
+      "imageUrl": "https://images.unsplash.com/photo-1627482265910-5c0ff6bee088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmFnJTIwcmljZXxlbnwwfHx8fDE3NjE2NDc4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bag rice"
+    },
+    {
+      "id": "lentils-1",
+      "description": "Toor Dal lentils",
+      "imageUrl": "https://images.unsplash.com/photo-1587041770006-965fc1251180?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW50aWxzJTIwZGFsfGVufDB8fHx8MTc2MTY0NzgxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lentils dal"
+    },
+    {
+      "id": "flour-1",
+      "description": "Aashirvaad Atta flour",
+      "imageUrl": "https://images.unsplash.com/photo-1710857389305-5cba9211033f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmbG91ciUyMGJhZ3xlbnwwfHx8fDE3NjE1NzUxNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flour bag"
+    },
+    {
+      "id": "oil-1",
+      "description": "Sunflower cooking oil",
+      "imageUrl": "https://images.unsplash.com/photo-1720468750623-39e9a09f5067?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb29raW5nJTIwb2lsfGVufDB8fHx8MTc2MTY0NzgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cooking oil"
+    },
+    {
+      "id": "spices-1",
+      "description": "Turmeric powder",
+      "imageUrl": "https://images.unsplash.com/photo-1698943510650-9232c98a5328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0dXJtZXJpYyUyMHBvd2RlcnxlbnwwfHx8fDE3NjE2NDMxNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "turmeric powder"
+    },
+    {
+      "id": "spices-2",
+      "description": "Cumin seeds",
+      "imageUrl": "https://images.unsplash.com/photo-1731970820339-e725b78f55e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjdW1pbiUyMHNlZWRzfGVufDB8fHx8MTc2MTU1ODYxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cumin seeds"
+    },
+    {
+      "id": "sugar-1",
+      "description": "Packet of white sugar",
+      "imageUrl": "https://images.unsplash.com/photo-1761426079132-c2c9978b9514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdWdhciUyMHBhY2tldHxlbnwwfHx8fDE3NjE2NDc4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sugar packet"
+    },
+    {
+      "id": "tea-1",
+      "description": "Tata Tea Gold",
+      "imageUrl": "https://images.unsplash.com/photo-1597481288323-efff1b2f6d23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWElMjBib3h8ZW58MHx8fHwxNzYxNTc1MTUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tea box"
+    },
+    {
+      "id": "ghee-1",
+      "description": "Jar of Amul Ghee",
+      "imageUrl": "https://images.unsplash.com/photo-1543463573-35e4afd0ab43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnaGVlJTIwamFyfGVufDB8fHx8MTc2MTU3NTE1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ghee jar"
+    },
+    {
+      "id": "onions-1",
+      "description": "Fresh onions",
+      "imageUrl": "https://images.unsplash.com/photo-1741517481122-51d958803203?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMG9uaW9uc3xlbnwwfHx8fDE3NjE1NTkyODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh onions"
+    },
+    {
+      "id": "potatoes-1",
+      "description": "Fresh potatoes",
+      "imageUrl": "https://images.unsplash.com/photo-1594885270227-c61f9bc1383d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMHBvdGF0b2VzfGVufDB8fHx8MTc2MTY0NzgxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh potatoes"
+    },
+    {
+      "id": "tomatoes-1",
+      "description": "Fresh tomatoes",
+      "imageUrl": "https://images.unsplash.com/photo-1683009118690-a5851ccb1112?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmVzaCUyMHRvbWF0b2VzfGVufDB8fHx8MTc2MTU5NDQ1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh tomatoes"
+    }
+  ]
+}

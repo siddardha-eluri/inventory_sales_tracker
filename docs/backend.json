@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "picture": { "type": "string", "format": "uri" }
+      },
+      "required": ["id", "name", "email"]
+    },
+    "Product": {
+      "title": "Product",
+      "type": "object",
+      "description": "Represents a product in the inventory.",
+      "properties": {
+        "id": { "type": "string", "description": "Unique identifier for the product." },
+        "name": { "type": "string", "description": "Name of the product." },
+        "description": { "type": "string", "description": "Detailed description of the product." },
+        "price": { "type": "number", "description": "Price of the product." },
+        "stock": { "type": "number", "description": "Current stock level." },
+        "lowStockThreshold": { "type": "number", "description": "Threshold for low stock alert." },
+        "category": { "type": "string" },
+        "imageUrl": { "type": "string", "format": "uri" },
+        "unit": { "type": "string" }
+      },
+      "required": ["id", "name", "price", "stock", "lowStockThreshold", "category", "imageUrl"]
+    },
+    "Sale": {
+      "title": "Sale",
+      "type": "object",
+      "description": "Represents a sales transaction.",
+      "properties": {
+        "id": { "type": "string" },
+        "date": { "type": "string", "format": "date-time" },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/entities/SaleItem" }
+        },
+        "total": { "type": "number" }
+      },
+      "required": ["id", "date", "items", "total"]
+    },
+    "SaleItem": {
+      "title": "SaleItem",
+      "type": "object",
+      "properties": {
+        "productId": { "type": "string" },
+        "quantity": { "type": "number" },
+        "priceAtSale": { "type": "number" }
+      },
+      "required": ["productId", "quantity", "priceAtSale"]
+    }
+  },
+  "auth": {
+    "providers": ["password"]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "entityName": "User",
+          "schema": { "$ref": "#/entities/User" },
+          "description": "Stores user profile information."
+        },
+        "collections": [
+          {
+            "path": "/products/{productId}",
+            "definition": {
+              "entityName": "Product",
+              "schema": { "$ref": "#/entities/Product" },
+              "description": "Each user has their own subcollection of products."
+            }
+          },
+          {
+            "path": "/sales/{saleId}",
+            "definition": {
+              "entityName": "Sale",
+              "schema": { "$ref": "#/entities/Sale" },
+              "description": "Each user has their own subcollection of sales transactions."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
